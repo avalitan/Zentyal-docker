@@ -2,7 +2,7 @@
 
 VERSION=6.1
 echo "deb http://packages.zentyal.org/zentyal $VERSION main" > /etc/apt/sources.list.d/zentyal-archive.list
-wget -q http://keys.zentyal.org/zentyal-$VERSION-packages.asc -O /etc/apt/trusted.gpg.d/zentyal-packages.asc
+#wget -q http://keys.zentyal.org/zentyal-$VERSION-packages.asc -O /etc/apt/trusted.gpg.d/zentyal-packages.asc
 
 apt update
 
