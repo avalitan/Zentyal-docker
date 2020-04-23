@@ -1,1 +1,1 @@
-FROM ubuntu:18.04
+FROM phusion/baseimage:0.11
